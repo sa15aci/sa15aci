@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7516616D2088B85100C750DF"
+               BlueprintIdentifier = "B612EA1A2089ADA600CEE609"
                BuildableName = "sa15aci.app"
                BlueprintName = "sa15aci"
                ReferencedContainer = "container:sa15aci.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "751661812088B85100C750DF"
+               BlueprintIdentifier = "B612EA2E2089ADA600CEE609"
                BuildableName = "sa15aciTests.xctest"
                BlueprintName = "sa15aciTests"
                ReferencedContainer = "container:sa15aci.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7516618C2088B85100C750DF"
+               BlueprintIdentifier = "B612EA392089ADA600CEE609"
                BuildableName = "sa15aciUITests.xctest"
                BlueprintName = "sa15aciUITests"
                ReferencedContainer = "container:sa15aci.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7516616D2088B85100C750DF"
+            BlueprintIdentifier = "B612EA1A2089ADA600CEE609"
             BuildableName = "sa15aci.app"
             BlueprintName = "sa15aci"
             ReferencedContainer = "container:sa15aci.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7516616D2088B85100C750DF"
+            BlueprintIdentifier = "B612EA1A2089ADA600CEE609"
             BuildableName = "sa15aci.app"
             BlueprintName = "sa15aci"
             ReferencedContainer = "container:sa15aci.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7516616D2088B85100C750DF"
+            BlueprintIdentifier = "B612EA1A2089ADA600CEE609"
             BuildableName = "sa15aci.app"
             BlueprintName = "sa15aci"
             ReferencedContainer = "container:sa15aci.xcodeproj">
