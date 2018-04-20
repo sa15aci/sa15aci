@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1314" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sa15aci" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9iA-eO-pOY"/>
+                        <viewControllerLayoutGuide type="bottom" id="TdF-z2-fTs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bqf-DW-ZT8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fcz-VC-PWN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="car0.png" translatesAutoresizingMaskIntoConstraints="NO" id="eli-HV-rve" customClass="dragCar" customModule="sa15aci" customModuleProvider="target">
+                                <rect key="frame" x="208" y="115" width="39" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Fcz-VC-PWN" secondAttribute="trailing" id="0n4-gY-9bg"/>
+                            <constraint firstItem="TdF-z2-fTs" firstAttribute="top" secondItem="Fcz-VC-PWN" secondAttribute="bottom" id="2Ee-Lj-yHy"/>
+                            <constraint firstItem="Fcz-VC-PWN" firstAttribute="top" secondItem="Bqf-DW-ZT8" secondAttribute="top" id="N65-dy-cU1"/>
+                            <constraint firstItem="Fcz-VC-PWN" firstAttribute="top" secondItem="Bqf-DW-ZT8" secondAttribute="top" id="N8O-Bd-LpN"/>
+                            <constraint firstItem="Fcz-VC-PWN" firstAttribute="leading" secondItem="Bqf-DW-ZT8" secondAttribute="leading" id="S2r-bg-Z2e"/>
+                            <constraint firstItem="Fcz-VC-PWN" firstAttribute="leading" secondItem="Bqf-DW-ZT8" secondAttribute="leading" id="ZJF-Wz-c8H"/>
+                            <constraint firstItem="TdF-z2-fTs" firstAttribute="top" secondItem="Fcz-VC-PWN" secondAttribute="bottom" id="kIn-Sy-top"/>
+                            <constraint firstAttribute="trailing" secondItem="Fcz-VC-PWN" secondAttribute="trailing" id="vhW-mc-1Bd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainCar" destination="eli-HV-rve" id="L8D-jB-Xk2"/>
+                        <outlet property="roadView" destination="Fcz-VC-PWN" id="lJI-ER-m1B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="car0.png" width="382" height="757"/>
+    </resources>
+</document>
